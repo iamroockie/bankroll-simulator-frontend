@@ -1,0 +1,84 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "locale": {
+    "change": "Change locale"
+  },
+  "params": {
+    "bankroll": {
+      "bust_threshold": "Bust threshold",
+      "bust_threshold_tooltip": "Minimum remaining balance to continue playing",
+      "starting": "Starting",
+      "title": "Bankroll parameters"
+    },
+    "cashout": {
+      "amount": "Amount",
+      "bankroll_percentage": "Percentage of the bankroll",
+      "fixed": "Fixed amount",
+      "interval": "Interval",
+      "interval_tooltip": "Number of hands between cashouts (multiple of 100)",
+      "percentage": "Percentage",
+      "profit_percentage": "Percentage of profit",
+      "select": "Select cashout type",
+      "title": "Cashout parameters",
+      "type": "Cashout type"
+    },
+    "limits": {
+      "down": "return to",
+      "select_limits": "Select at least one limit",
+      "title": "Limits",
+      "up": "go to"
+    },
+    "probability": {
+      "add": "Add",
+      "at_limit_or_above": "At limit or above",
+      "at_limit_tooltip": "End the simulation at this limit or higher",
+      "bust": "Bust",
+      "bust_tooltip": "Bankroll drops to bust threshold",
+      "empty": "No queries — click \"Add\"",
+      "limit": "Limit",
+      "reach_bankroll": "Reach bankroll",
+      "reach_bankroll_tooltip": "The bankroll will reach the specified amount or higher by the end of the simulation. Bankroll = Starting bankroll + Profit - Cashouts",
+      "reach_profit": "Reach profit",
+      "reach_profit_tooltip": "The total profit will reach or exceed the specified amount by the end of the simulation. Total profit = Profit + Cashouts - Starting bankroll",
+      "target": "Target",
+      "title": "Probabilities",
+      "type": "Query type"
+    },
+    "simulation": {
+      "hands": "Number of hands",
+      "simulations": "Number of simulations",
+      "title": "Simulation parameters"
+    }
+  },
+  "results": {
+    "best": "Best",
+    "ci_70": "70% confidence interval",
+    "ci_95": "95% confidence interval",
+    "elapsed": "Elapsed time",
+    "empty": "Fill in the parameters and click \"Run\"",
+    "probability": "Probability",
+    "title": "Results",
+    "worst": "Worst"
+  },
+  "simulate": {
+    "error": "Simulation error",
+    "run": "Run",
+    "running": "Simulating..."
+  },
+  "validate": {
+    "bankroll_gt_bust": "Starting bankroll must be greater than bust threshold",
+    "bankroll_positive": "Starting bankroll must be greater than 0",
+    "cashout_amount": "Cashout amount must be greater than 0",
+    "cashout_interval": "Cashout interval must be greater than 0",
+    "cashout_percentage": "Cashout percentage must be between 1 and 100",
+    "no_limits": "Select at least one limit",
+    "probability_limit": "Select a limit for the probability query",
+    "probability_target": "Probability target must be greater than 0"
+  },
+  "theme": {
+    "change": "Change theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  }
+}
