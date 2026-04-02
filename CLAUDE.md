@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Poker bankroll Monte Carlo simulator — frontend. SvelteKit 2, Svelte 5 (Runes mode), TypeScript, Tailwind CSS 4. Package manager: **Bun**.
 
-Backend lives at `../bankroll-back` (Rust, Axum). Serves `POST /simulate` on port 3000 — accepts a JSON body matching `SimulateRequest`, returns `SimulateResponse`. Types in `src/lib/types.ts` mirror the backend contract.
+[Backend source](https://github.com/iamroockie/bankroll-simulator-backend) (Rust, Axum). Serves `POST /simulate` — accepts a JSON body matching `SimulateRequest`, returns `SimulateResponse`. Types in `src/lib/types.ts` mirror the backend contract.
 
 ## Commands
 
